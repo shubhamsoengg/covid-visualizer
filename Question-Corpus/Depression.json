@@ -1,0 +1,55 @@
+[
+    {
+        "categorie": "Jan", 
+        "values": [
+            {
+                "value": 10, 
+                "rate": "Question"
+            }, 
+            {
+                "value": 8, 
+                "rate": "Answer"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Feb", 
+        "values": [
+            {
+                "value": 12, 
+                "rate": "Question"
+            }, 
+            {
+                "value": 10, 
+                "rate": "Answer"
+            }
+        ]
+    }, 
+    {
+        "categorie": "March", 
+        "values": [
+            {
+                "value": 17, 
+                "rate": "Question"
+            }, 
+            {
+                "value": 15, 
+                "rate": "Answer"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Apr", 
+        "values": [
+            {
+                "value": 5, 
+                "rate": "Question"
+            }, 
+            {
+                "value": 2, 
+                "rate": "Answer"
+            }
+        ]
+    } 
+
+]

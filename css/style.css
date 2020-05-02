@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#overlay {
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 1000;
+    position: fixed;
+}
+.spinner {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 30px;
+}
+.spinner .fa {
+    color: lightseagreen;
+}
+
+h4.project-heading {
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #16435f;
+}
+
+.top {
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+.total-cases-wrapper {
+    position: absolute;
+    margin-top: -30px;
+    display: none;
+    right: 50px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.active-cases-wrapper {
+    position: absolute;
+    margin-top: -15px;
+    display: none;
+    left: 80px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: bold;
+}
+.active-cases-wrapper .type {
+    margin-right: 10px;
+}
+#active-cases {
+    color: #19b5fe;
+}
+#deaths {
+    color: #f64747;
+}
+#recoveries {
+    color: #00b894;
+}
+#prediction-span {
+    display: none;
+}
+span#total-cases {
+    font-size: 30px;
+    color: #666;
+}
+
+button.simulation-btn {
+    border: none;
+    border-radius: 0;
+    padding: 5px 15px;
+    font-size: 12px;
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #00b894;
+    color: #fff;
+}
+button.simulation-btn:hover {
+    box-shadow: 0 5px 6px 0px #ccc;
+    background-color: #00b894;
+}
+
+button.simulation-btn:focus {
+    border: none !important;
+    background-color: #00b894;
+    box-shadow: none;
+    outline: none;
+}
+
+button.simulation-btn:focus:active {
+    border: none !important;
+    background-color: #00b894;
+    box-shadow: none !important;
+}
+
+.bottom {
+    margin-top: 80px;
+}
+footer {
+    background-color: #efefef;
+    margin-top: 0;
+    padding: 20px;
+}
+footer p {
+    font-weight: bold;
+    color: #444;
+}
+footer span {
+    padding-right: 7%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+}
+
+/* #regions_div,
+#chart_div {
+    width: 100% !important;
+    height: 450px !important;
+} */
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+.symptom-heading {
+    margin-bottom: 30px;
+}
+.StreamText {
+    color: #555;
+    font-weight: bold;
+}
